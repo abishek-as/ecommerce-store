@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dashboard and CMS Live app - https://ecommerce-dashboard-cms.vercel.app/
 
-## Getting Started
+# Store Live page - https://ecommerce-store-theta-gray.vercel.app/
 
-First, run the development server:
+![HomePage](images/homepage.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Full Stack E-Commerce Frontend: Next.js 13, React, Tailwind CSS
+
+This repository hosts the frontend component of my [Ecommerce-app project](https://github.com/abishek-as/ecommerce-dashboard-cms). The platform showcases a diverse array of products, thoughtfully categorized and complemented by engaging billboards. Furthermore, the application seamlessly incorporates a cart feature, integrated with Stripe for efficient payment processing.
+
+### Prerequisites
+
+**Node version 14.x**
+
+### Cloning the repository
+
+```shell
+git clone https://github.com/abishek-as/ecommerce-store
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install packages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+npm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Setup .env file,
 
-## Learn More
+```js
+NEXT_PUBLIC_API_URL=
+```
 
-To learn more about Next.js, take a look at the following resources:
+Paste the backend URL in NEXT_PUBLIC_API_URL
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Start the app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```shell
+npm run dev
+```
 
-## Deploy on Vercel
+## Available commands
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Running commands with npm `npm run [command]`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| command | description                              |
+| :------ | :--------------------------------------- |
+| `dev`   | Starts a development instance of the app |
+
+## Images
+
+### Category Homepage
+
+![Dashboard](images/category.png)
+
+### Short overview of product
+
+![Dashboard](images/short-overview.png)
+
+### Full overview of product
+
+![Dashboard](images/full-overview.png)
+
+### Cart
+
+![Dashboard](images/cart.png)
